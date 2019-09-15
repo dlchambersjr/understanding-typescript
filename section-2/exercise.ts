@@ -7,7 +7,9 @@ let bankAccount: BankAccount = {
   }
 };
 
-let myself: { name: string, bankAccount: BankAccount, hobbies: string[] } = {
+type Myself = { name: string, bankAccount: BankAccount, hobbies: string[] };
+
+let myself: Myself = {
   name: 'David',
   bankAccount: bankAccount,
   hobbies: ['Cycling', 'cooking']
